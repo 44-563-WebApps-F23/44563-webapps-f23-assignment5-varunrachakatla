@@ -11,6 +11,27 @@
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <style>
+    /* Custom CSS for styling */
+    .table-custom {
+      font-size: 16px;
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+
+    .table-custom thead th {
+      background-color: #007bff; /* Header background color */
+      color: #fff; /* Header text color */
+    }
+
+    .table-custom tbody tr:nth-child(odd) {
+      background-color: #f2f2f2; /* Odd row background color */
+    }
+
+    .table-custom tbody tr:hover {
+      background-color: #cce5ff; /* Hovered row background color */
+    }
+  </style>
 </head>
 <body>
 
@@ -46,5 +67,55 @@
   <img src="./chicago_new (1).jpg" class="img-thumbnail" alt="chicago" height="400" width="400">
   <img src="./kansas_new (1).jpg" class="img-thumbnail" alt="kansas-city" height="400" width="400">
 </div>
+<table class="table table-custom">
+  <caption>Table of Letters, Cities, Rivers, and Trees</caption>
+  <thead>
+    <tr>
+      <th scope="col">Letter</th>
+      <th scope="col">City</th>
+      <th scope="col">River</th>
+      <th scope="col">Tree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">R</th>
+      <td>Rio de Janeiro</td>
+      <td>Real River</td>
+      <td>Red Bean</td>
+
+    </tr>
+    <tr>
+      <th scope="row">A</th>
+      <td>Austin</td>
+      <td>Anna River</td>
+      <td>Arbor Vitae</td>
+    </tr>
+    <tr>
+      <th scope="row">C</th>
+      <td>Chicago</td>
+      <td>Caddo River</td>
+      <td>Cipres</td>
+    </tr>
+    <tr>
+      <th scope="row">H</th>
+      <td>Houston</td>
+      <td>Heart River</td>
+      <td>Hemlock</td>
+    </tr>
+    <tr>
+      <th scope="row">K</th>
+      <td>Kansas city</td>
+      <td>Kettle River</td>
+      <td>Knobcone Pine</td>
+    </tr>
+    <tr>
+      <th scope="row">T</th>
+      <td>Toledo</td>
+      <td>Thames River</td>
+      <td>Tamarack</td>
+    </tr>
+  </tbody>
+</table>
 </body>
 </html>
